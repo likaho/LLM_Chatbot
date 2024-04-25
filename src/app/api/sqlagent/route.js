@@ -49,6 +49,7 @@ export async function GET(request) {
                         When questions ask for latest, use date column and order by date desc.
                         When questions about bedroom, use number_bedrooms.
                         When questions about bathroom, use number_bathrooms.
+                        When questions about property type, use property_type.
                         When questions about property type, for Detached house, use Detached as the value; for apartment, use Apartment as a value; for flat, use Flat as a value. 
                         When questions about area in with alphanumeric characters format like "SW1W 0NY", "PO16 7GZ", "GU16 7HF", "L1 8JQ", "L1" and "GU16", use postcode with wildcard condition. 
                         DO NOT make any DML statements (INSERT, UPDATE, DELETE, DROP etc.) to the database.
